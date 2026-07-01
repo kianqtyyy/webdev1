@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maya Cruz | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <span class="logo">Maya Cruz</span>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+        <label
+          for="menu-toggle"
+          class="burger-icon"
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about" class="hero">
+        <div class="container">
+          <p class="subtitle">FRONTEND DEVELOPER &bull; QUEZON CITY</p>
+          <h1>I build clean, friendly websites.</h1>
+          <p class="hero-description">
+            I like simple layouts, readable code, and coffee that's too strong.
+            Currently open for freelance frontend work.
+          </p>
+          <a href="#contact" class="btn">Get in touch</a>
+
+          <div class="status-grid">
+            <div class="card status-card">
+              <span class="card-label">CURRENTLY</span>
+              <p class="card-value">Building a course platform UI</p>
+            </div>
+            <div class="card status-card">
+              <span class="card-label">BASED IN</span>
+              <p class="card-value">Quezon City, Philippines</p>
+            </div>
+            <div class="card status-card highlight-card">
+              <span class="card-label">AVAILABLE FOR</span>
+              <p class="card-value">Freelance & contract work</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <p class="subtitle">WHAT I WORK WITH</p>
+          <h2>Four tools, used well</h2>
+
+          <div class="skills-grid">
+            <div class="card tool-card">
+              <span class="tool-number">01</span>
+              <h3>HTML5</h3>
+              <p>
+                Semantic markup that makes sense without a comment explaining
+                it. Headers are headers, sections are sections.
+              </p>
+            </div>
+
+            <div class="card tool-card">
+              <span class="tool-number">02</span>
+              <h3>CSS3</h3>
+              <p>Flexbox and Grid for layout &mdash; no framework required.</p>
+            </div>
+
+            <div class="card tool-card">
+              <span class="tool-number">03</span>
+              <h3>JavaScript</h3>
+              <p>DOM basics and just enough logic to be useful.</p>
+            </div>
+
+            <div class="card tool-card">
+              <span class="tool-number">04</span>
+              <h3>Git & GitHub</h3>
+              <p>
+                Commits that explain themselves, branches that don't break
+                things, pull requests someone can actually review.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="cta-section">
+        <div class="container">
+          <p class="subtitle section-dark-sub">LET'S TALK</p>
+          <h2>Have a project in mind?</h2>
+          <p class="cta-description">
+            Send me a message &mdash; I usually reply within a day.
+          </p>
+          <a href="mailto:maya@example.com" class="email-btn"
+            >maya@example.com</a
+          >
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>&copy; 2026 Maya Cruz</p>
+        <div class="social-links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
