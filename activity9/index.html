@@ -3,123 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Maya Cruz | Frontend Developer</title>
+    <title>Maya Cruz — Frontend Developer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="navbar">
-      <div class="nav-container">
-        <span class="logo">Maya Cruz</span>
-
-        <input type="checkbox" id="menu-toggle" class="menu-toggle" />
-        <label
-          for="menu-toggle"
-          class="burger-icon"
-          aria-label="Toggle navigation"
-        >
-          <span></span>
-          <span></span>
-          <span></span>
-        </label>
-
-        <nav class="nav-links">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
-      </div>
+    <header>
+      <p class="navbar_logo">Maya Cruz</p>
+      <nav>
+        <ul class="navbar_links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-      <section id="about" class="hero">
-        <div class="container">
-          <p class="subtitle">FRONTEND DEVELOPER &bull; QUEZON CITY</p>
-          <h1>I build clean, friendly websites.</h1>
-          <p class="hero-description">
+      <section class="hero" id="about">
+        <div class="hero_inner">
+        <div class="hero_text">
+          <p class="hero_eyebrow">FRONTEND DEVELOPER · QUEZON CITY</p>
+          <h1 class="hero_title">I build clean, friendly websites.</h1>
+          <p class="hero_desc">
             I like simple layouts, readable code, and coffee that's too strong.
-            Currently open for freelance frontend work.
+            Currently open for freelance work.
           </p>
           <a href="#contact" class="btn">Get in touch</a>
+        </div>
 
-          <div class="status-grid">
-            <div class="card status-card">
-              <span class="card-label">CURRENTLY</span>
-              <p class="card-value">Building a course platform UI</p>
-            </div>
-            <div class="card status-card">
-              <span class="card-label">BASED IN</span>
-              <p class="card-value">Quezon City, Philippines</p>
-            </div>
-            <div class="card status-card highlight-card">
-              <span class="card-label">AVAILABLE FOR</span>
-              <p class="card-value">Freelance & contract work</p>
-            </div>
+        <div class="hero_panel">
+          <div class="info_card">
+            <p>CURRENTLY</p>
+            <p>Building a course platform UI</p>
           </div>
+          <div class="info_card">
+            <p>BASED IN</p>
+            <p>Quezon City, Philippines</p>
+          </div>
+          <div class="info_card info_card_accent">
+            <p>AVAILABLE FOR</p>
+            <p>Freelance & contract work</p>
+          </div>
+        </div>
         </div>
       </section>
 
-      <section id="skills" class="skills">
-        <div class="container">
-          <p class="subtitle">WHAT I WORK WITH</p>
-          <h2>Four tools, used well</h2>
-
-          <div class="skills-grid">
-            <div class="card tool-card">
-              <span class="tool-number">01</span>
-              <h3>HTML5</h3>
-              <p>
-                Semantic markup that makes sense without a comment explaining
-                it. Headers are headers, sections are sections.
-              </p>
-            </div>
-
-            <div class="card tool-card">
-              <span class="tool-number">02</span>
-              <h3>CSS3</h3>
-              <p>Flexbox and Grid for layout &mdash; no framework required.</p>
-            </div>
-
-            <div class="card tool-card">
-              <span class="tool-number">03</span>
-              <h3>JavaScript</h3>
-              <p>DOM basics and just enough logic to be useful.</p>
-            </div>
-
-            <div class="card tool-card">
-              <span class="tool-number">04</span>
-              <h3>Git & GitHub</h3>
-              <p>
-                Commits that explain themselves, branches that don't break
-                things, pull requests someone can actually review.
-              </p>
-            </div>
-          </div>
+      <section class="skills" id="skills">
+        <p>WHAT I WORK WITH</p>
+        <h2>Four tools, used well</h2>
+        <div class="skills_grid">
+          <article class="skill_card skill_card_wide">
+            <p>01</p>
+            <h3>HTML5</h3>
+            <p>
+              Semantic markup that makes sense without a comment explaining it.
+              Header are headers, sections are sections.
+            </p>
+          </article>
+          <article class="skill_card">
+            <p>02</p>
+            <h3>CSS3</h3>
+            <p>Flexbox and Grid for layout - no framework required.</p>
+          </article>
+          <article class="skill_card">
+            <p>03</p>
+            <h3>JavaScript</h3>
+            <p>DOM basics and just enough logic to be useful.</p>
+          </article>
+          <article class="skill_card skill_card_wide">
+            <p>04</p>
+            <h3>Git & GitHub</h3>
+            <p>
+              Commits that explain themselves, branches that don't break things,
+              pull requests someone can actually review.
+            </p>
+          </article>
         </div>
       </section>
 
-      <section id="contact" class="cta-section">
-        <div class="container">
-          <p class="subtitle section-dark-sub">LET'S TALK</p>
-          <h2>Have a project in mind?</h2>
-          <p class="cta-description">
-            Send me a message &mdash; I usually reply within a day.
-          </p>
-          <a href="mailto:maya@example.com" class="email-btn"
-            >maya@example.com</a
-          >
-        </div>
+      <section class="contact" id="contact">
+        <p class="contact_label">LET'S TALK</p>
+        <h2 class="contact_title">Have a project in mind?</h2>
+        <p class="contact_desc">
+          Send me a message — I usually reply within a day.
+        </p>
+        <a href="mailto:maya@example.com" class="btn_light">maya@example.com</a>
       </section>
     </main>
-
-    <footer class="footer">
-      <div class="container footer-content">
-        <p>&copy; 2026 Maya Cruz</p>
-        <div class="social-links">
-          <a href="#">GitHub</a>
-          <a href="#">LinkedIn</a>
-          <a href="#">Twitter</a>
-        </div>
-      </div>
+    <footer>
+      <p class="footer_copyright">© 2026 Maya Cruz</p>
+      <ul class="footer_links">
+        <li><a href="#">GitHub</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
     </footer>
   </body>
 </html>
