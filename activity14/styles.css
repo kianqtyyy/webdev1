@@ -1,8 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+
 
 html,
 body,
@@ -134,7 +130,7 @@ table {
     border-spacing: 0;
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -333,34 +329,34 @@ a {
     top: 0;
 }
 
-.sidebar .logo{
+.sidebar .logo {
     display: flex;
     align-items: center;
     gap: 8px;
     font-weight: 800;
-    font-size:1.1rem;
+    font-size: 1.1rem;
     padding: 20px;
 }
 
-.sidebar .logo .dot{
+.sidebar .logo .dot {
     width: 10px;
     height: 10px;
     background-color: var(--primary);
     border-radius: 50%;
 }
 
-.sidebar nav{
+.sidebar nav {
     padding: 8px;
     flex: 1;
 }
 
-.sidebar nav ul{
+.sidebar nav ul {
     display: flex;
     flex-direction: column;
     gap: 2px;
 }
 
-.sidebar nav ul li a{
+.sidebar nav ul li a {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -371,15 +367,16 @@ a {
     font-size: 0.9rem;
 }
 
-.sidebar nav ul li a:hover{
+.sidebar nav ul li a:hover {
     background-color: var(--bg);
 }
-.sidebar nav ul li a.active{
+
+.sidebar nav ul li a.active {
     background-color: var(--primary-light);
     color: var(--primary);
 }
 
-.sidebar-footer{
+.sidebar-footer {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -387,25 +384,99 @@ a {
     border-top: 1px solid var(--line);
 }
 
-.sidebar-footer .who{
+.sidebar-footer .who {
     line-height: 1.25;
     overflow: hidden;
 }
-.sidebar-footer .who strong{
+
+.sidebar-footer .who strong {
     display: block;
     font-size: 0.85rem;
 }
 
-.sidebar-footer .who span{
-    font-size: 0.75rem; color: var(--muted);
+.sidebar-footer .who span {
+    font-size: 0.75rem;
+    color: var(--muted);
 }
+
+.page-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0 0 2px;
+}
+
+.page-sub {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0 0 20px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.stat-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 16px;
+    box-shadow: var(--shadow);
+}
+
+.stat-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 9px;
+    background: var(--primary-light);
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.stat-icon .icon {
+    width: 18px;
+    height: 18px;
+}
+
+.stat-card.accent .stat-icon {
+    background: var(--accent-light);
+    color: var(--accent);
+}
+
+.stat-card .stat-value {
+    font-size: 1.6rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.stat-card .stat-label {
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin: 5px 0 8px;
+}
+
+.stat-trend {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.stat-trend.warn {
+    color: var(--accent);
+}
+
 @media (min-width: 1000px) {
     body {
         display: flex;
 
     }
 
-    .topbar .logo{
+    .topbar .logo {
         display: none;
     }
 
@@ -418,10 +489,12 @@ a {
         flex: 1;
     }
 
-    .topbar .topbar-search{
+    .topbar .topbar-search {
         display: block;
     }
+
     .content {
         padding: 32px 36px 50px;
     }
 }
+
