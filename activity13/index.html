@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="desktop">
+
+    <div class="window">
+
+      <div class="title-bar">
+        <div class="title-bar-text">
+          <span class="title-icon">&#128187;</span> My Portfolio
+        </div>
+        <div class="title-bar-controls">
+          <span class="tb-btn">_</span>
+          <span class="tb-btn">&#9633;</span>
+          <span class="tb-btn">X</span>
+        </div>
+      </div>
+
+      <div class="menu-bar">
+        <span>File</span>
+        <span>Edit</span>
+        <span>View</span>
+        <span>Help</span>
+      </div>
+
+      <header class="site-header">
+        <h1>Kian Estigoy</h1>
+        <p class="tagline"> Software Engineer &amp; UI/UX Designer</p>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <section id="about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
+          <div class="panel">
+            <p>Software Engineer and UI/UX Designer with a passion for creating intuitive and engaging digital experiences.</p>
+          </div>
+        </section>
+
+        <section id="portfolio" aria-labelledby="portfolio-heading">
+          <h2 id="portfolio-heading">Portfolio</h2>
+          <div class="panel grid">
+            <article class="project-card">
+              <h3>Project One</h3>
+              <p>A brief description of the first project and its key features.</p>
+            </article>
+            <article class="project-card">
+              <h3>Project Two</h3>
+              <p>A brief description of the second project and its key features.</p>
+            </article>
+            <article class="project-card">
+              <h3>Project Three</h3>
+              <p>A brief description of the third project and its key features.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" aria-labelledby="skills-heading">
+          <h2 id="skills-heading">Skills</h2>
+          <div class="panel">
+            <ul class="skills-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>UI/UX Design</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact</h2>
+          <div class="panel">
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Kian Estigoy. aanhin pa si Kean Baclaan kung andito naman si kian Estigoy </p>
+      </footer>
+
+      <div class="status-bar">
+        <span>Ready</span>
+        <span>|</span>
+        <span>100%</span>
+      </div>
+
+    </div>
+
+    <div class="taskbar">
+      <div class="start-btn">
+        <span class="start-icon">&#10032;</span> Start
+      </div>
+      <div class="taskbar-item active">My Portfolio</div>
+      <div class="taskbar-clock" id="clock">5:00PM</div>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
