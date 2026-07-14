@@ -1,0 +1,46 @@
+{
+  
+  "skills": [
+    {
+      "name": "Sports",
+      "specification": "Basketball Player"
+    },
+    {
+      "name": "programming",
+      "specification": "Web Designer"
+    },
+    {
+      "name": "programming",
+      "specification": "Developer"
+    }
+ 
+  ],
+   "projects": [
+        {
+            "title": "KWALITY Design",
+            "description": "A Clothing line designed in Figma."
+        },
+        {
+            "title": "McDo Redesign",
+            "description": "Redesign of the McDonald's interface."
+        },
+        {
+            "title": "Avery Store",
+            "description": "Online store prototype created in Figma."
+        }
+    ],
+    "education": [
+        {
+            "year": "2023",
+            "description": "Graduated Junior High School"
+        },
+        {
+            "year": "2025",
+            "description": "Graduated Senior High School"
+        },
+        {
+            "year": "2026-Present",
+            "description": "Bachelor of Science in Information Technology"
+        }
+    ]
+}

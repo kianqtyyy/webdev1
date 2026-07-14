@@ -1,0 +1,22 @@
+/* Tablet */
+@media (max-width: 768px) {
+    .main-nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .site-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .panel {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="CSS/responsive.css">
+</head>
+
+<body>
+
+  <div class="desktop">
+
+    <div class="window">
+
+      <div class="title-bar">
+        <div class="title-bar-text">
+          <span class="title-icon">&#128187;</span> My Portfolio
+        </div>
+        <div class="title-bar-controls">
+          <span class="tb-btn">_</span>
+          <span class="tb-btn">&#9633;</span>
+          <span class="tb-btn">X</span>
+        </div>
+      </div>
+
+      <div class="menu-bar">
+        <span>File</span>
+        <span>Edit</span>
+        <span>View</span>
+        <span>Help</span>
+      </div>
+
+      <header class="site-header">
+        <h1>Kian Estigoy</h1>
+        <p class="tagline"> Just a kid with a big dream</p>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <section id="about" aria-labelledby="about-heading">
+          <h2 id="about-heading">About Me</h2>
+          <div class="panel">
+            <p>I am a 1st Year college student taking up Bachelor of Science in Information Technology.</p>
+          </div>
+          <div class="panel">
+            <p>Interested in computer and basketball.</p>
+            <div class="container">
+              <p>Just A kid With a Big Dream</p>
+            </div>
+        </section>
+
+        <section id="skills">
+          <h2>Skills</h2>
+
+          <div class="panel grid" id="skills-container">
+            <p>basketball player</p>
+            <p>web designer</p>
+            <p>developer</p>
+          </div>
+        </section>
+
+
+        <div class="panel grid" id="projects-container">
+
+        </div>
+
+
+        <div class="panel" id="education-container">
+
+        </div>
+
+        <section id="contact" aria-labelledby="contact-heading">
+          <h2 id="contact-heading">Contact</h2>
+          <div class="panel">
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name">
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email">
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4"></textarea>
+
+              <button type="submit">Send</button>
+            </form>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; 2026 Kian Estigoy. aanhin pa si Kean Baclaan kung andito naman si kian Estigoy </p>
+      </footer>
+
+      <div class="status-bar">
+        <span>Ready</span>
+        <span>|</span>
+        <span>100%</span>
+      </div>
+         
+      <script src="js/app.js"></script>
+</body>
+
+</html>
