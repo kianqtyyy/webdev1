@@ -28,7 +28,16 @@ fetch("data.json")
         `;
 
     });
+   const educationContainer = document.getElementById("education-container");
 
+education.forEach(item => {
+  educationContainer.innerHTML += `
+    <div class="education-item">
+      <h3>${item.year}</h3>
+      <p>${item.description}</p>
+    </div>
+  `;
+});
 
 
 
