@@ -16,7 +16,6 @@ fetch("data.json")
 
     });
 
-    
     const projectsContainer = document.getElementById("projects-container");
 
     data.projects.forEach(project => {
