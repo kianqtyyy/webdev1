@@ -30,17 +30,7 @@ fetch("data.json")
 
     });
 
-    const educationContainer = document.getElementById("education-container");
 
-    data.education.forEach(item => {
 
-        educationContainer.innerHTML += `
-            <div class="education-card">
-                <h3>${item.year}</h3>
-                <p>${item.description}</p>
-            </div>
-        `;
-
-    });
 
 });

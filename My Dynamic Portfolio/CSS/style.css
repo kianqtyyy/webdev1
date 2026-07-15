@@ -1,4 +1,17 @@
-* {
+*
+
+
+.profile-pic{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #000;
+    display: block;
+    margin: 20px auto;
+}
+
+*{
   box-sizing: border-box;
 }
 
@@ -19,8 +32,8 @@ body {
 }
 
 .window {
-  width: 100%;
-  max-width: 1000px;
+  width: 1000%;
+  max-width:1000px;
   background: #ffffff;
   border-radius: 18px;
   overflow: hidden;
@@ -64,9 +77,6 @@ body {
   align-items:center;
   justify-content:center;
 }
-
-
-/* MENU */
 
 .menu-bar {
   display:flex;

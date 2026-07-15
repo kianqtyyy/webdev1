@@ -1,4 +1,5 @@
 {
+
   
   "skills": [
     {
@@ -18,15 +19,21 @@
    "projects": [
         {
             "title": "KWALITY Design",
-            "description": "A Clothing line designed in Figma."
+            "description": "A Clothing line designed in Figma.",
+            "link": "https://www.figma.com/proto/GEgYscbOcKNszm4s87XUxI/KWALITY?node-id=0-1&p=f&t=ROw7h1hDmhqpQ4gA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&show-proto-sidebar=1&fuid=1646071326283801913",
+            "image": "assets/icons/images/kwality.png"
         },
         {
             "title": "McDo Redesign",
-            "description": "Redesign of the McDonald's interface."
+            "description": "Redesign of the McDonald's interface.",
+            "link": "https://github.com/kianqtyyy/webdev1/tree/bd86ab37a93876e8ca6fbbdb5ae4738c1c6ce7f3/activity2",
+            "image": ""
         },
         {
             "title": "Avery Store",
-            "description": "Online store prototype created in Figma."
+            "description": "Online store prototype created in Figma.",
+            "link": "https://www.figma.com/proto/aoI8ZODHBiNx8IWVpV5vOy/Untitled?node-id=0-1&p=f&t=n2d603N6AyfOj8Ux-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+            "image": ""
         }
     ],
     "education": [
